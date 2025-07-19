@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio - Andy Contreras</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    img.tech-icon {
+      width: 24px;
+      height: 24px;
+      transition: filter 0.3s ease;
+    }
+    img.tech-icon:hover {
+      filter: brightness(1.2);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<header class="bg-blue-700 text-white py-6">
+  <div class="max-w-5xl mx-auto px-4">
+    <h1 class="text-3xl font-bold">Andy Contreras</h1>
+    <p class="text-lg">Ingeniero de Software</p>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-4 py-10 space-y-16">
+
+    <section class="max-w-3xl mx-auto px-4 py-10">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700">Sobre mí</h2>
+        <p class="text-gray-800 text-lg leading-relaxed mb-8 ">
+            Soy Ingeniero de Software con conocimientos sólidos en desarrollo web, especialmente utilizando HTML, CSS, JavaScript y Python, trabajando principalmente con el framework Django. Me caracterizo por ser una persona proactiva y comprometida, con habilidades para adaptarme rápidamente a nuevos entornos y tecnologías. 
+            Me motiva el aprendizaje continuo y disfruto colaborar en equipos para alcanzar objetivos comunes. Tengo experiencia en la gestión de proyectos, y siempre busco aportar soluciones eficientes y bien estructuradas.
+        </p>
+
+         <div class="text-center">
+            <a href="./PDF/ANDY_CONTRERAS_CV.pdf" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white px-6 py-3 rounded-xl shadow-lg hover:scale-105 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 ease-in-out">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1M7 10l5 5m0 0l5-5m-5 5V4" />
+            </svg>
+            CV
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-6 text-blue-700">Proyectos</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="bg-white rounded-xl shadow-md p-6 relative">
+            <h3 class="text-xl font-semibold mb-2">Sistema de Cobro de Alícuotas</h3>
+            <p class="text-sm text-gray-700">
+            Solución digital integral que facilita la gestión y control de cobros de alícuotas, usuarios y pagos, permitiendo la generación 
+            de reportes claros y la optimización de procesos administrativos.
+            </p>
+            <div class="flex gap-3 mt-3 items-center">
+            <img class="tech-icon" src="https://cdn.simpleicons.org/html5/EA4335" alt="HTML" title="HTML" />
+            <img class="tech-icon" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS" title="Tailwind CSS" />
+            <img class="tech-icon" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" title="JavaScript" />
+            <img class="tech-icon" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python" />
+            <img class="tech-icon" src="https://cdn.simpleicons.org/django/092E20" alt="Django" title="Django" />
+            </div>
+            <a href="https://github.com/Andy-Contreras/Sistema_Cobro_Alicuota" target="_blank" class="absolute top-4 right-4">
+            <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" title="Ver en GitHub" class="tech-icon" />
+            </a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6 relative">
+            <h3 class="text-xl font-semibold mb-2">Sistema de Biblioteca Digital</h3>
+            <p class="text-sm text-gray-700">
+            Plataforma digital que permite el acceso y consulta de una amplia colección de libros de forma sencilla y rápida, facilitando a los usuarios la exploración y lectura desde cualquier dispositivo.
+            </p>
+            <div class="flex gap-3 mt-3 items-center">
+                <img class="tech-icon" src="https://cdn.simpleicons.org/html5/EA4335" alt="HTML" title="HTML" />
+                <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" title="CSS" />
+                <img class="tech-icon" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python" />
+                <img class="tech-icon" src="https://cdn.simpleicons.org/django/092E20" alt="Django" title="Django" />
+            </div>
+
+            <a href="https://github.com/Andy-Contreras/Sistema_biblioteca" target="_blank" class="absolute top-4 right-4">
+            <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" title="Ver en GitHub" class="tech-icon" />
+            </a>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="px-4 py-12 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center text-blue-700">Herramientas y Tecnologías</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+
+            <!-- Front-end -->
+            <div>
+            <h3 class="text-xl font-semibold text-black mb-4">Front-end</h3>
+            <div class="flex justify-center flex-wrap gap-4">
+                <img src="https://cdn.simpleicons.org/html5/EA4335" alt="HTML" title="HTML" class="w-10 h-10" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" title="CSS" class="w-10 h-10" />
+                <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" title="JavaScript" class="w-10 h-10" />
+            </div>
+            </div>
+
+            <!-- Back-end -->
+            <div>
+            <h3 class="text-xl font-semibold text-black mb-4">Back-end</h3>
+            <div class="flex justify-center flex-wrap gap-4">
+                <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python" class="w-10 h-10" />
+                <img src="https://cdn.simpleicons.org/django/092E20" alt="Django" title="Django" class="w-10 h-10" />
+                <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="Django REST Framework" title="Django REST Framework" class="w-10 h-10" />
+            </div>
+            </div>
+
+            <!-- Bases de Datos -->
+            <div>
+            <h3 class="text-xl font-semibold text-black mb-4">Bases de Datos</h3>
+            <div class="flex justify-center flex-wrap gap-4">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/microsoft-sql-server-logo-png-transparent.png" alt="SQL Server" title="SQL Server" class="w-12 h-12" />
+                <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" title="MySQL" class="w-12 h-12" />
+            </div>
+            </div>
+
+            <!-- Control de versiones -->
+            <div>
+            <h3 class="text-xl font-semibold text-black mb-4">Control de versiones</h3>
+            <div class="flex justify-center">
+                <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" title="GitHub" class="w-12 h-12" />
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+  <section>
+    <h2 class="text-2xl font-bold mb-4 text-blue-700">Contacto</h2>
+    <p class="mb-1">📧 <a href="mailto:andycontreras123456@gmail.com" class="text-blue-600 underline">andycontreras123456@gmail.com</a></p>
+    <p>📱 <a href="tel:+593990062024" class="text-blue-600 underline">+593 0990062024</a></p>
+  </section>
+
+</main>
+
+<footer class="text-center p-4 text-sm text-gray-500 bg-white border-t">
+  © 2025 Andy Contreras - Portafolio Personal
+</footer>
+
+</body>
+</html>
